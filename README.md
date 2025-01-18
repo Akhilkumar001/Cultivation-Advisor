@@ -1,5 +1,5 @@
 
-# Saathi
+# Cultivation Advisor
 
 An AI powered agriculture utility platform
 ## Features
