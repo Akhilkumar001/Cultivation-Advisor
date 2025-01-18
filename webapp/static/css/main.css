@@ -1,0 +1,51 @@
+h2 {
+  color: black;
+  text-align: center;
+  /* top: -50px; */
+  margin-top: 3.5rem;
+}
+p {
+  color: black;
+  top: -50px;
+  text-align: center;
+  margin-bottom: 11.5rem;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.row8 {
+  height: 255px;
+  margin-top: -78px;
+  margin-left: 150px;
+  width:350px;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  /* top: -50px; */
+  margin-top: -0.5rem;
+}
+h6 {
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+.goog-te-gadget {
+  font-size: 50px !important;
+}
+img{
+    margin-left: -300px;
+    height:30px;
+    width:60px;
+}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block title %}Welcome{% endblock title %} {% block
+content %}
+<div class="row1">
+  <h2>WELCOME TO CULTIVATION ADVISOR</h2>
+</div>
+<div class="row2">
+  <p>
+    An agriculture utility website to help farmers by providing harvesting
+    solution using artificial intelligence.
+  </p>
+</div>
+
+<img class="row8" src="{{url_for('static', filename='images/sliders/c1.jpg')}}">
+
+<img class="row8" src="{{url_for('static', filename='images/sliders/c2.jpg')}}">
+
+<br>
+<div class="row4 mt-5 p-0"style="background-color:azure">
+<marquee><h4>Learn about Organic Farming</h4></marquee>
+</div>
+<div class="row3 mt-4">
+<iframe width="370" height="255" src="https://www.youtube.com/embed/nNwZb68inKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="370" height="255" src="https://www.youtube.com/embed/wuC9h-xnYi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="370" height="255" src="https://www.youtube.com/embed/WhOrIUlrnPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% endblock content %}
